@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package blocksigner;
+
+message RemoteHSM {
+    string url          = 1;
+    string access_token = 2;
+}

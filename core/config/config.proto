@@ -26,3 +26,10 @@ message BlockSigner {
 	string url = 3;
 }
 
+message OptionString {
+	string value = 1;
+}
+
+message OptionSet {
+	repeated bytes values = 1;
+}
